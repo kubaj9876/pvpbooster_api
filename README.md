@@ -1,8 +1,8 @@
 # pvpbooster_api
-Interfejs użytkownika zbudowany w oparciu o framework PyQt5.
-Moduł interfejsu graficznego dla ekosystemu PvPBooster. Skupia się na dostarczeniu intuicyjnego UX oraz płynnej wizualizacji danych.
+Centralny system autoryzacji i zarządzania danymi użytkowników.
+Serce systemu odpowiedzialne za bezpieczeństwo, licencjonowanie oraz komunikację z bazą danych.
 
 Kluczowe funkcjonalności:
-  Custom UI Framework: Autorskie komponenty i style (QSS) zapewniające nowoczesny wygląd aplikacji.
-  Dynamic Animations: Wykorzystanie QVariantAnimation do stworzenia płynnego i responsywnego interfejsu.
-  State Management: System synchronizacji stanu aplikacji z backendem API i modułem logiki.
+  HWID Authentication: Zabezpieczenie dostępu do oprogramowania poprzez unikalne identyfikatory sprzętowe.
+  RESTful API: Skalowalne punkty końcowe do obsługi logowania, rejestracji i zarządzania subskrypcjami.
+  Database Integration: Projekt i implementacja struktury bazy danych do przechowywania logów aktywności i uprawnień.
